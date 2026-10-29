@@ -1,8 +1,9 @@
 {
   "name": "观澜AI",
   "short_name": "观澜",
-  "description": "跨平台汇集重要时事，观大势、察潮流，一眼看清方向",
+  "description": "AI 知识工作台 · 收集、分类、追踪",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
