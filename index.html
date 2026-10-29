@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>观澜AI · AI 知识工作台</title>
+  <link rel="icon" href="assets/logo.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="观澜AI" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img class="logo-img" src="assets/apple-touch-icon.png" alt="观澜AI" />
+      <div class="brand-text">
+        <h1 id="greeting">观澜AI</h1>
+        <p id="slogan">AI 知识工作台 · 收集、分类、追踪</p>
+      </div>
+    </div>
+    <div class="topbar-right">
+      <div class="date-pill" id="datePill"></div>
+      <button class="refresh-btn" id="refreshBtn" title="数据更新日期">↻ 已更新</button>
+    </div>
+  </header>
+
+  <!-- 一级分类导航 -->
+  <nav class="main-nav" id="mainNav" aria-label="一级分类"></nav>
+
+  <!-- 内容区 -->
+  <main class="content" id="content"></main>
+
+  <footer class="footer">
+    <span>观澜AI · 浅色清爽，专注重要的事</span>
+    <span class="foot-count" id="footCount"></span>
+  </footer>
+
+  <script src="assets/data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
